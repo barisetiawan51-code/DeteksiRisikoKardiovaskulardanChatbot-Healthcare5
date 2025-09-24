@@ -6,7 +6,7 @@ from login_register import login, signup
 # import homepage
 # import chatbot
 # import deteksi_penyakit
-cred = {
+cred_obj = {
   "type": "service_account",
   "project_id": "cardiovasculardisease-ibs",
   "private_key_id": "16da6c5038958485db99fa25e1db6e9568ec1a84",
@@ -22,8 +22,8 @@ cred = {
 # Function to initialize Firebase
 def initialize_firebase():
     if not firebase_admin._apps:
-        cred = credentials.Certificate(cred)
-        firebase_admin.initialize_app(cred)
+        cred_ = credentials.Certificate(cred_obj)
+        firebase_admin.initialize_app(cred_)
 
 # Main function
 def main():
