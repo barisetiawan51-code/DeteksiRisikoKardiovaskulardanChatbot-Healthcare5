@@ -5,17 +5,18 @@ import requests
 
 cred_data = {
   "type": "service_account",
-  "project_id": "healthcare-team5",
-  "private_key_id": "d7a0f21f4317bdf59fec86b7e731e955dee6131e",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9iKUb3SNZ6fov\nIs7/UDSpw/hg00mQ+v95ky+s+Q6WNnoMnjrR1DvsKhgu3kRPKYJsZLMHJvzsMlF3\nGLK1hOezv/gLfj2o/oI8PzAWdrBrTcvQ+g36I/UOFmwgyqkbzJG00z5QOouZ+XIe\nbar25UpHJYlqsNm+SwwRD3/Bh8hTpuhmxxt9IvE/tWNGK+Qo7wce4u1dg0I+EQDC\n25ICqNJijgq47sd+ElFfTuvlfvBIFHsGbiMeioSQGLqFS+IejPJQoYBzRjC9O3g3\n0l1CxgzZQsVdEDcMphl9Wt4vQFVpTTLMY/iXyjHB8kc6THgOB292QS8kaspk59td\n+ZKO41s3AgMBAAECggEAHs0mm/UfqhySqndbMXW84Tv2UPH1WijYPM81J8Sf4LyA\nsC1EvNXjWRlsLa20ZzMFPY1N5OMqpk31HEg4vrQXHYicjG2bIqwdySGxtGzcdcvC\nTDde7yBJ0lzFfLzCp8Bii4Lq9QnWpxK5P4WuC4quvAo3H04XTMwQbXNZ3T8uSJ2m\nxKGBe1Y1O2nB6f0GkpBbLET44idhTR8D2E4NNtqYUSsJaT1e2EmUFVZvoka159sd\n8SrUf8CTkZePBja9vnPGgAILdBI3WdxsVgD+2yLb+YkfhRPO2SzJ3O1bNQllokns\nhIV72eu9fdBcbjwM2bO3b5xQINl+7XS2tXZGYoaRCQKBgQD3F2KBBtYG1JR8pTwF\ntw4fQlnzd76tKe2UHxuV1s2/Bdiqkcp1lju1gNH7+U3LgXOBHP0oOO6Oz/WWzixN\nE/hVL+dupRoVyss3OlHgm9LeXFFyWiuAGCvuNIHlKev47sIHLr962thGdEHp2BzT\nY0UITEKbOIM2BkQ7qCOaFlbojwKBgQDEXgM3kWizPWxqXc4ACJnGtlNfCjBTo7NL\nlPU/0vk/z6qOqzQJqQuEIphEbfr8NntXC9S3GaVyVt3dHSCqM2TXr4/vQyElglmb\nWE22nOKwn7Juffz1Cp+d7uLM547TZPtH64VCRjPs4GYZLYjmhVIvgwgK3KN0I1Ns\nH7d4150m2QKBgAD3Fmtqm2traSkTfCiJjoSQvck1roj+oO7zMChlrmgQncgMyb2r\n2I/c8PULBELHPqxCcLq3fjcQmOT96S5j5ZRvm3fTLUbog+KzV56I/UnhEnBf6cuW\nTJWhnuBGSaWvSRK+HAFe2Xls+tTvAy3QNXTS12/DyL9tRtb00S7I544BAoGAdmLT\nf7HbtIwoi6wIIP8Obr3HX7oNzq8Xzk582UDBYlY51o+i7NwMhFozALZppZrXG3CX\nitgcZeW3FrKT2ejoOByxIyeOmUWP7lb7a0gEZ0WwVmsAkV8ZQicedzh3ZD0yPXbh\nvUYD0iCrjSxlp8zi8qAFvj6tELync71faKxdI2kCgYEAxCwklk/zlypR167f2Ovx\n02zyzl91uQqxO9ZboubDmFJ0MIvEPw2FUyj8R/caK7wOtLy4V3C/gFRbmKRTrP7t\nfBT/g3xl8keKELVy+Ib1pYYGRRfIpUL+48ulpHnXQGqik9mJKxnXjRhp+eU7vYoY\nR0yoSSSBWZ0PU5yCEFuu3sk=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-bq69y@healthcare-team5.iam.gserviceaccount.com",
-  "client_id": "111278925958481905704",
+  "project_id": "cardiovasculardisease-ibs",
+  "private_key_id": "16da6c5038958485db99fa25e1db6e9568ec1a84",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD3q7j2B16W4V/+\nrxd7Vavo55vN8OBpKZwsrUpm93v3mIbGYtAlifDE7lhri2nuajOJCspKTqqwNFEZ\neIbk26hmRcVdbDKmpDAnKqwqqF/yKaCZ200DQ8RZq2Iv3BpdqLLW52cF0/i4j5bS\npA3TD0ywTxC/Bc+/Gw2S42DJ4+z1HNz6q+KEZXWB3jnC/4v3fnTY9+GLFFTCzOXK\njGEBVxU1Y/eA5J9OcUq25eIf3ad0lJ//QZePdBXJUxYwiCVCsgGiC5ZqzX64YTMN\n3BDDEMejVWZUatKgRFo+DxvoLpub4OpdO32VgBHkXon4b0ORFLxSYCoOHiFpI8A1\nK0g366tXAgMBAAECggEAEwiO59VsJwM9+dgh4VgVpIn8FskOrfZFKsfMgno9fCss\nHF3mqiPeLXw1rloh83EU8dCy+B/wjScQHnl9QGRDHkz5XHMet2DB1Ji6b3LOINGj\nJn/MfNY95jg+DPiIzC7VQ5+38qI2KJTcXea+qzwvRBNncY60RvcAxYuU2h8ajEGb\nY7LpT2O0LcHF5I5/pXgQ2sNgGhvR1ggs4EWYCI3btSIZ3HdK3HLtJBdX9clrWQ84\nac/dnJ5tL5jBnuvw0R329LsuZP9rSM1h8k8vwSx1WLv2OxiS43J6biDVbXkBgxET\nIWJeLtTUhtduUv1/zYVURL2KbT+sUsu6Brh/3LAcIQKBgQD+I4hDcMTrPvqtdG/n\nCV5B1bN/hHs1PZr+ZpSWZLmDHGWAj8t4gSSaXehsQo8A3SvWvUQBRAg6YV009exr\nfEMuYdBtdL/cXU44jZOWLtMc/1a5XGi+iLg/F+5Bm8Zy48gNaf0gTY0A8AoCPCkC\nUMiw2zGaTfi+3qC2lrLZZVWTtwKBgQD5fBBU02Dsl4WBxL5yiPCh4R+w9sTWvaPQ\n88O6Iruy7v5c/X4hzvZZ8ADwiJTdNU5UwZUcr+h/4yw69VnJ1YpLZoyU4yeEaABp\nzocLx3Cyouln0CSKkrzu+SGcwSOQ8LDU5VeL9RJ8WOW9dzT1SUl9FxLz8fQNQG0W\nqMmTvYTlYQKBgQCrpYQbSMc3vEnDbalG+mTXQmcB8ZDl3L4apV4mVdGWZE+KDZT3\nxwHZ4SNiO3Iquzcoypxr3m9QPwKdCpyr3Dnj0dzckMYlKD/0omrUPLwKEcuZVnjI\nd785nggl9/iJEJ/Fr5hvgPGDeJzJ9agdEEL8cI+IELG4+NTDffU+L9sk8QKBgQDF\n+Kno9fdypuYdTKcnsfzpKACC577Y/JFSzSyits8lNTsJRWpin52jTq0gMfGW+6bV\n4OtXYUtouDcv7eO7IsVkAdNKjlqcWf8B9w34zeFjD52RcHyercRZCb6fai+z4xsf\nRYJMIEP0AoMD7uVKQ0aaicXTaEsWfOpT0cprfzdG4QKBgGEaBkc3mdyBAVqi76gX\n4e2bvDYLm19Wa9+hTGr8+TiU53Jth8Fm+dYpILoAviyto9xv5jVr3FOsBWrzMc+c\nsUTe+lLsTaOo0hUI0zCzWz9fIR2ADSS/f8Sb6AK7fqXojYdNloMd6JpromM9+ou1\nDl3er3boPJI4VOKIRzHp2CQF\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@cardiovasculardisease-ibs.iam.gserviceaccount.com",
+  "client_id": "111823302926588970769",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bq69y%40healthcare-team5.iam.gserviceaccount.com",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40cardiovasculardisease-ibs.iam.gserviceaccount.com",
   "universe_domain": "googleapis.com"
 }
+
 
 # Fungsi untuk menginisialisasi Firebase
 def initialize_firebase():
@@ -45,7 +46,7 @@ def login():
                 }
                 # Ganti 'YOUR_FIREBASE_API_KEY' dengan kunci API proyek Firebase Anda
                 params = {
-                    'key': 'AIzaSyAFyDQTml6uHD2LKvWwJBZNd-JVuY1OMnQ'
+                    'key': 'AIzaSyB4ct8S_4QOLfF2q9W2gdWIAS8vy9Tym2o'
                 }
                 response = requests.post(url, params=params, json=payload)
                 response_data = response.json()
