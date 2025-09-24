@@ -10,7 +10,7 @@ from login_register import login, signup
 # Function to initialize Firebase
 def initialize_firebase():
     if not firebase_admin._apps:
-        cred = credentials.Certificate("token-admin-sdk-firebase.json")
+        cred = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred)
 
 # Main function
