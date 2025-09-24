@@ -6,7 +6,7 @@ import requests
 # Fungsi untuk menginisialisasi Firebase
 def initialize_firebase():
     if not firebase_admin._apps:
-        cred_ = credentials.Certificate("token-admin-sdk-firebase.json")
+        cred_ = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred_)
 
 # Fungsi login
