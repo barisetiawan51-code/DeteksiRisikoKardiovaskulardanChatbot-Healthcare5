@@ -1,5 +1,5 @@
 import firebase_admin
-from firebase_admin import credentials
+from firebase_admin import credentials, initialize_app
 import streamlit as st
 from streamlit_option_menu import option_menu
 from login_register import login, signup
